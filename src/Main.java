@@ -52,9 +52,6 @@ public class Main {
 
         equation = equation.replace("divided by", "divided");
         equation = equation.replace("devided by", "divided");
-        equation = equation.replace("devided by", "divided");
-        equation = equation.replace("devided by", "divided");
-        equation = equation.replace("devided by", "divided");
 
         while (equation.contains("(")) {
             int startIndex = equation.lastIndexOf("(");
