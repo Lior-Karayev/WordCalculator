@@ -16,7 +16,7 @@ public class Main {
 
         result = calculateEquation(equation);
 
-        System.out.println("THe value of expression '" + equation + "' is: " + result);
+        System.out.println("The value of expression '" + equation + "' is: " + result);
 
     }
 
@@ -42,6 +42,8 @@ public class Main {
                 return 8;
             case "nine":
                 return 9;
+            case "ten":
+                return 10;
             default:
                 return 0;
         }
